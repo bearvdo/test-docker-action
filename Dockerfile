@@ -25,5 +25,6 @@ EXPOSE 9000
 ENV SONAR_HOME=/opt/sonarqube
 ENV PATH=$SONAR_HOME/bin:$PATH
 
+
 # Start SonarQube
-CMD ["sonar.sh", "start"]
+#CMD ["sonar.sh", "start"]
